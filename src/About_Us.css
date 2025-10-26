@@ -1,0 +1,194 @@
+.quote {
+    text-align: center;
+    font-size: 24px;
+    color:#ffffffc4;
+    margin: 0;
+  
+    padding-top: .625rem;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+   
+    background-color: #472f3d;
+  }
+  /* Header Section */
+  .header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    margin: 15px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: left;
+    width: 250px;  /* Medium size */
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 208px;
+    background: white;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex: 1; 
+  }
+  
+  .search-bar svg {
+    color: #888;
+    cursor: pointer;
+    padding: 0px;
+    
+    font-size: larger;
+  }
+  
+  .logo {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-links {
+    display: flex;
+    gap: 10px;
+    align-items: right;
+  }
+  
+  .auth-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .cart-icon {
+    font-size: 20px;
+    align-items: right;
+    cursor: pointer;
+  }
+  
+  /* Menu */
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 15px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #555;
+    font-size: 20px;
+  }
+  /* Dropdown Menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 10;
+    background: white;
+    list-style: none;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    font-size: medium;
+  }
+  
+  .dropdown-menu li:hover {
+    background: #f4a51c;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .heading{
+    margin-left: 270px;
+    margin-top: 20px;
+  }
+  
+  /* Workflow Section */
+.about-workflow-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #ffffff;
+  }
+  
+  .about-workflow-section img {
+    width: 20%;
+    max-height: 150px;
+    object-fit: contain;
+  }
+  /* middle work flow*/
+  .about-process-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px; /* Space between images */
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing from the slideshow */
+    margin-left: 400px;
+  }
+  
+  .about-process-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px; /* Ensure uniform width */
+  }
+  
+  .about-process-step img {
+    width: 80px; /* Adjust size */
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .about-process-step i {
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  /* middle work flow*/
+/* About Content */
+.about-content {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.8;
+    margin-top: -30px;
+  }
+  
+
+  
+  .about-content p {
+    margin-bottom: 1.2rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
